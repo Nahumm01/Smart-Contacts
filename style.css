@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5dada;
+  font-family: "Oxygen", sans-serif;
+  padding-top: 120px;
+}
+
+header {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 24px;
+  background-color: #840032;
+  border-radius: 25px;
+  color: #fff;
+}
+
+header p {
+  font-size: 22px;
+}
+header h1,
+header p {
+  margin-bottom: 10px;
+}
+
+#container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+form {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form input {
+  background-color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  border-bottom: 2px dotted #000;
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+}
+
+form button {
+  background-color: #fcb1a6;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 2px dotted #000;
+  color: #fff;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+form input,
+form button {
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+}
+
+table th {
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  padding: 20px;
+}
+
+table td {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.errorMsg {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nomeError {
+  border: 1px solid #ff0000;
+  background-color: #ff5252;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 35px;
+  padding: 8px;
+  text-align: center;
+  display: none;
+}
+
+.telError {
+  border: 1px solid #ff0000;
+  background-color: #ff5252;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 35px;
+  padding: 8px;
+  text-align: center;
+  display: none;
+}

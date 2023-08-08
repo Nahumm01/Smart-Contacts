@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SM Contacts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Smart Contacts</h1>
+        <p>Salve seus contatos abaixo!</p>
+      </header>
+      <form id="form">
+        <input
+          id="nomeInput"
+          type="text"
+          required
+          placeholder="Nome + Sobrenome"
+        />
+
+        <input
+          id="telefoneInput"
+          type="tel"
+          maxlength="14"
+          required
+          placeholder="(DDD) + Telefone"
+        />
+        <button class="btnEnvio" type="submit">Adicionar +</button>
+        <div class="errorMsg">
+          <div>
+            <p class="nomeError">Insira corretamente!</p>
+          </div>
+          <div>
+            <p class="telError">Deve seguir os padrões!</p>
+          </div>
+        </div>
+      </form>
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nome do Contato</th>
+            <th>Telefone do Contato</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <td>Example</td>
+          <td>(XX)9999-9999</td>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
